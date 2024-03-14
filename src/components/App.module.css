@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    width: 120px;
+    padding: 5px 15px;
+    border: 1px solid #838383;
+    outline: none;
+    background-color: #c28fff;
+}
+
+button:hover,
+button:active,
+button:focus {
+    background-color: #d9b9ff;
+}
